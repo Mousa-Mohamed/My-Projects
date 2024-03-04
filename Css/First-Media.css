@@ -1,0 +1,131 @@
+@media (max-width: 1199px) {
+    .service {
+        height: fit-content;
+    }
+    .service .service-container .details-service .column-image {
+        display: none;
+    }
+    .portfolio {
+        height: fit-content;
+    }
+    .portfolio .portfolio-container {
+        margin-bottom: 50px;
+    }
+    .about .about-container .about-content .about-image::before {
+        display: none;
+    }
+    .about .about-container .about-content .about-image::after {
+        display: none;
+    }
+    .about .about-container .about-content .about-details {
+        flex-basis: calc(100% - 300px);
+    }
+}
+@media (max-width: 767px) {
+    .hello .hello-container {
+        height: 60vh;
+    }
+    .feat .feat-container {
+        grid-template-columns:repeat(auto-fill, minmax(290px, 1fr));
+    }
+    .service {
+        height: fit-content;
+    }
+    .service .service-container .title-service h2 {
+        font-size: 4em;
+        letter-spacing: normal;
+    }
+    .service .service-container .title-service p {
+        font-size: larger;
+        margin-top: -25px;
+    }
+    .service .service-container .details-service {
+        flex-direction: column;
+        text-align: center;
+    }
+    .service .service-container .details-service .column .top-col {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+    .service .service-container .details-service .column .col-content {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .service .service-container .details-service .column .ex {
+        margin-bottom: unset;
+    }
+    .service .service-container .details-service .column h4 {
+        padding-bottom: 10px;
+    }
+    .service .service-container {
+        gap: 30px;
+    }
+    .portfolio {
+        height: fit-content;
+    }
+    .portfolio .portfolio-container {
+        margin-bottom: 50px;
+    }
+    .portfolio .portfolio-container .portfolio-title h2 {
+        font-size: 4em;
+        letter-spacing: 0px;
+    }
+    .portfolio .portfolio-container .portfolio-title p {
+        font-size: 1em;
+        margin-top: -25px;
+    }
+    .portfolio .portfolio-container .cards {
+        grid-template-columns:repeat(auto-fill, minmax(290px, 1fr));
+        text-align: center;
+    }
+    .about .about-container {
+        margin: 50px 0 50px 0;
+    }
+    .about .about-container .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about .about-container .about-content .about-image {
+        margin-bottom: 30px;
+        width: 290px;
+    }
+    .about .about-container .about-content .about-details hr {
+        width: 100%;
+    }
+    .about .about-container .about-title h2 {
+        font-size: 4.5em;
+        letter-spacing: 0px;
+    }
+    .about .about-container .about-title p {
+        font-size: 1.4em;
+        margin-top: -30px;
+    }
+    .contact .contact-container .contact-title h2 {
+        font-size: 4em;
+        letter-spacing: 0px;
+    }
+    .contact .contact-container .contact-title p {
+        color: #777;
+        font-size: 1em;
+        margin-top: -25px;
+    }
+    .contact .contact-container .contact-content p {
+        font-size: 1.1em;
+    }
+    .contact .contact-container .contact-content a {
+        font-size: 1.2em;
+        font-weight: 800;
+    }
+    .contact .contact-container .icons {
+        font-size: small;
+    }
+    .contact .contact-container .icons i {
+        padding: 0 2px ;
+    }
+    footer .footer-container {
+        font-size: medium;
+    }
+}
