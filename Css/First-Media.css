@@ -26,10 +26,7 @@
         height: 60vh;
     }
     .feat .feat-container {
-        grid-template-columns:repeat(auto-fill, minmax(290px, 1fr));
-    }
-    .service {
-        height: fit-content;
+        width: 90%;
     }
     .service .service-container .title-service h2 {
         font-size: 4em;
@@ -62,12 +59,14 @@
     }
     .service .service-container {
         gap: 30px;
+        width: 90%;
     }
     .portfolio {
         height: fit-content;
     }
     .portfolio .portfolio-container {
         margin-bottom: 50px;
+        width: 90%;
     }
     .portfolio .portfolio-container .portfolio-title h2 {
         font-size: 4em;
@@ -90,7 +89,7 @@
     }
     .about .about-container .about-content .about-image {
         margin-bottom: 30px;
-        width: 290px;
+        width: 100%;
     }
     .about .about-container .about-content .about-details hr {
         width: 100%;
@@ -103,6 +102,9 @@
         font-size: 1.4em;
         margin-top: -30px;
     }
+    .contact .contact-container {
+        width: 90%;
+    }
     .contact .contact-container .contact-title h2 {
         font-size: 4em;
         letter-spacing: 0px;
@@ -113,10 +115,10 @@
         margin-top: -25px;
     }
     .contact .contact-container .contact-content p {
-        font-size: 1.1em;
+        font-size: 1.2em;
     }
     .contact .contact-container .contact-content a {
-        font-size: 1.2em;
+        font-size: 1.3em;
         font-weight: 800;
     }
     .contact .contact-container .icons {

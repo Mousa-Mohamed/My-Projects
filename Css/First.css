@@ -111,7 +111,6 @@ header .header-container .menu:hover ul {
     gap: 20px;
     width: 70%;
     text-align: center;
-    height: fit-content;
     align-items: center;
     background-color: #f6f6f6;
     padding: 10vh 0;
